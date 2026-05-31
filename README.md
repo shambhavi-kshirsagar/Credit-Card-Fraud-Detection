@@ -172,44 +172,6 @@ Credit-Card-Fraud-Detection/
     ├── P5.png                            # AI Insights page
     └── P6.png                            # Business Recommendations page
 ```
-
----
-
-## 🚀 How to Run
-
-### 1. Get the Dataset
-Download from [Kaggle IEEE-CIS Fraud Detection](https://www.kaggle.com/competitions/ieee-fraud-detection/data)
-- `train_transaction.csv`
-- `train_identity.csv`
-
-### 2. Run Python Notebook
-```bash
-pip install pandas numpy psycopg2-binary jupyter
-jupyter notebook fraud_detection_analysis.ipynb
-```
-
-### 3. Setup PostgreSQL
-```bash
-# Create database in pgAdmin or psql
-CREATE DATABASE fraud_detection;
-```
-```bash
-# Run SQL files in order
-psql -U postgres -d fraud_detection -f sql/create_tables.sql
-psql -U postgres -d fraud_detection -f sql/create_views.sql
-```
-```sql
--- Load CSV files using COPY command
-COPY transactions FROM 'C:/temp/transactions.csv' DELIMITER ',' CSV HEADER;
-COPY card_info FROM 'C:/temp/card_info.csv' DELIMITER ',' CSV HEADER;
-COPY address_info FROM 'C:/temp/address_info.csv' DELIMITER ',' CSV HEADER;
-COPY identity_info FROM 'C:/temp/identity_info.csv' DELIMITER ',' CSV HEADER;
-COPY behavior FROM 'C:/temp/behavior.csv' DELIMITER ',' CSV HEADER;
-```
-
-### 4. Open Power BI Dashboard
-Open `Credit_Card_Fraud_Detection.pbix` in **Power BI Desktop** (free download from Microsoft)
-
 ---
 
 ## 👩‍💻 Author

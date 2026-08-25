@@ -40,22 +40,22 @@ Power BI Desktop
 ## 📊 Dashboard Screenshots
 
 ### Page 1 — Fraud Analysis
-![Fraud Analysis](PowerBI/P1.png)
+![Fraud Analysis](Pages/P1.png)
 
 ### Page 2 — Transaction Analysis
-![Transaction Analysis](PowerBI/P2.png)
+![Transaction Analysis](Pages/P2.png)
 
 ### Page 3 — Card & Device Analysis
-![Card Device Analysis](PowerBI/P3.png)
+![Card Device Analysis](Pages/P3.png)
 
 ### Page 4 — Fraud Alerts
-![Fraud Alerts](PowerBI/P4.png)
+![Fraud Alerts](Pages/P4.png)
 
 ### Page 5 — AI-Powered Fraud Insights
-![AI Insights](PowerBI/P5.png)
+![AI Insights](Pages/P5.png)
 
 ### Page 6 — Business Recommendations
-![Recommendations](PowerBI/P6.png)
+![Recommendations](Pages/P6.png)
 
 ---
 
